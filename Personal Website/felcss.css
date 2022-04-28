@@ -1,0 +1,310 @@
+  .body{
+    margin: 0px;
+  }
+  
+  .topnav {
+    background-color: #3B3D3F;
+    overflow: hidden;
+    padding: 5px;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #E0ECF4;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  .topnav .logo a {
+    float: left;
+    color: #E0ECF4;
+    text-align: center;
+    padding: 9px 50px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Secular One', sans-serif; 
+    text-shadow: 1.5px 1.5px #80B3D2;
+  }
+
+  li{
+    text-decoration: none;
+    list-style: none;
+    /* display: inline-block; */
+    float : right;
+  }
+
+  .topnav .nav a:hover {
+    border-radius: 10px;
+    background-color: #C0D9E9;
+    color: #0067A5;
+    transition: color 0.3s ease; 
+  }
+  
+  .topnav .nav a.active {
+    border-radius: 10px;
+    background-color: #80B3D2;
+    color: #0067A5;
+  }
+
+  .sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .sticky + .contentt {
+    padding-top: 70px;
+  }
+
+  .contentt {
+    padding-top: 70px;
+  }
+
+  .text{
+    font-size : 25px;
+    padding: 14px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  .header {
+    padding: 30px;
+    padding-top: 45px;
+    text-align: center;
+    background-image: url('header1.png');
+    color: #E0ECF4;
+    font-size: 20px;
+    line-height: 2px;
+    zoom : 200%;
+    height : 250px;
+  }
+
+  .headerimg{
+    border-radius: 50%; 
+    border: 3px solid #0067A5 ;
+    width: 15%;
+    height: 60%;
+    size: fixed;
+  }
+  
+  .aboutme {
+    text-align: Left;
+    background: #C0D9E9;
+    font-size: 25px;
+    height: 409px;
+  }
+
+  .leftcol , .rightcol{
+    width: 50%;
+    float: left;
+    height: 410px;
+  }
+
+  .leftcol {
+    background: #C0D9E9;
+    float: left;
+    padding: 50px;
+    font-size: 25px;
+    font-family: 'Secular One', sans-serif;
+    color:#3B3D3F;
+  }
+
+  .rightcol {
+    padding: 50px;
+    padding-top: 35px;
+    background: #80B3D2;
+    font-size: 21px;
+    font-family: 'Secular One', sans-serif;
+    color:#E0ECF4;
+  }
+
+  .contactme {
+    text-align: Left;
+    background: #C0D9E9;
+    font-size: 25px;
+    height: 420px;
+  }
+
+  .cv{
+    background-color:#3B3D3F; 
+    color: #E0ECF4;
+    border-radius: 10px;
+    font-size: 25px; 
+    text-decoration: none;
+    padding: 5px 40px;
+  }
+
+  .rightcoll {
+    background: #C0D9E9;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Secular One', sans-serif;
+    color:#3B3D3F;
+    padding: 50px;
+    padding-top: 20px;
+  }
+
+  .leftcoll , .rightcoll{
+    width: 50%;
+    float: left;
+    height: 420px;
+  }
+
+  .leftcoll {
+    background: #80B3D2;
+    font-size: 25px;
+    font-family: 'Secular One', sans-serif;
+    color:#E0ECF4;
+    height: 420px;
+    padding: 50px;
+  }
+
+  .portfolio {
+    padding: 50px;
+    text-align: right;
+    background: #E0ECF4;
+    font-size: 25px;
+  }
+
+  
+  /* img {
+    width: 150px;
+    height: 150px;
+  } */
+
+  * {
+    box-sizing:border-box;
+  }
+  
+  .content h3 {
+    
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .content p {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  /* body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  } */
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .lower {
+    margin: 1px -16px;
+    font-family: 'Secular One', sans-serif;
+    color:#3B3D3F;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .lower,
+  .lower > .column {
+    padding: 1px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .lower:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    /* background-color: white; */
+    padding: 20px;
+    font-family: 'Secular One', sans-serif;
+    text-align: left;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  .footer {
+    text-align: center;
+    background-color: #E0ECF4;
+    font-family: 'Secular One', sans-serif;
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  .logoo {
+    font-family: 'Secular One', sans-serif;
+  }
+
+  .leftcoll .hitam {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Secular One', sans-serif;
+    color:#3B3D3F;
+    font-style: normal;
+  }
+
+  .fieldname {
+    width:30px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  input {
+    background-color: transparent;
+    border-radius: 5px;
+    border-style:solid;
+    width: 300px;
+    font-family: 'Secular One', sans-serif;
+  }
+
+  textarea {
+    background-color: transparent;
+    border-radius: 5px;
+    border-style:solid;
+    width: 300px;
+    font-family: 'Secular One', sans-serif;
+  }
+
+  button{
+    background-color: #3B3D3F;
+    color: #E0ECF4;
+    border-radius: 5px;
+    border-style: unset;
+    font-family: 'Secular One', sans-serif;
+  }
